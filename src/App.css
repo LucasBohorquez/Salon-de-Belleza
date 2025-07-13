@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body{
+  display: none;
+}
+@media (max-width: 425px){
+  body{
+    display: block;
+    font-family: 'New Gerbil', sans-serif;
+  }
+  .react-datepicker__day-names{
+    display: flex;
+    justify-content: space-between;
+  }
+  .react-datepicker__month{
+    display: flex;
+    justify-content: space-between;
+  }
+}
